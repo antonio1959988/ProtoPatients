@@ -26,10 +26,10 @@ export default function PatientForm() {
 
             if(activeId){
                 updatePatient(data)
-                toast.info(`¡${data.name} actualizado correctamente!`)
+                toast.info(`¡Paciente actualizado correctamente!`)
             } else {
                 addPatient(data)
-                toast.success(`¡${data.name} registrado correctamente!`)
+                toast.success(`¡Paciente registrado correctamente!`)
             }
         reset()
     }

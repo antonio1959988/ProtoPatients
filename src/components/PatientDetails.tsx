@@ -13,7 +13,7 @@ export default function PatientDetails({patient}: PatientDetailsProps) {
 
     const handleClick = () => {
         deletePatient(patient.id)
-        toast.error('Paciente eliminado :(')
+        toast.error('Paciente eliminado')
     }
 
   return (
